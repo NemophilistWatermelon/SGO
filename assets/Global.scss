@@ -1,0 +1,21 @@
+$base-color: #FF4040;
+$global-max-width: 1200px;
+.box-center {
+  margin: 0 auto;
+};
+
+.layout-center {
+  max-width: $global-max-width;
+  @extend .box-center;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+}
+
+
+.ml-10 {
+  margin-right: 10px;
+}
+
