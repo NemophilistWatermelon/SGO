@@ -1,0 +1,2 @@
+# SGO
+nuxt app
